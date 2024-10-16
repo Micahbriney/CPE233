@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Wed Feb 26 15:07:20 2020
+# Process ID: 26212
+# Current directory: C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 5/Modules/Limited_Otter_MCU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19232 C:\Users\mjrbr\OneDrive\Cal Poly\Winter 2020\CPE 233\Group Folder\Lab 5\Modules\Limited_Otter_MCU\Limited_Otter_MCU.xpr
+# Log file: C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 5/Modules/Limited_Otter_MCU/vivado.log
+# Journal file: C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 5/Modules/Limited_Otter_MCU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 5/Modules/Limited_Otter_MCU/Limited_Otter_MCU.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 5/Modules/Limited_Otter_MCU/otter_tb_behav.wcfg}
+source otter_tb.tcl
+save_wave_config {C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 5/Modules/Limited_Otter_MCU/otter_tb_behav.wcfg}
+close_sim

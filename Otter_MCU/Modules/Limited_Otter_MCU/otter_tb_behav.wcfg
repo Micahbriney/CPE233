@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="otter_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="otter_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="277833fs"></ZoomStartTime>
+      <ZoomEndTime time="364434fs"></ZoomEndTime>
+      <Cursor1Time time="310000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="199"></NameColumnWidth>
+      <ValueColumnWidth column_width="85"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/otter_tb/OTTER_MCU/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/INTR" type="logic">
+      <obj_property name="ElementShortName">INTR</obj_property>
+      <obj_property name="ObjectShortName">INTR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/IOBUS_IN" type="array">
+      <obj_property name="ElementShortName">IOBUS_IN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IOBUS_IN[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/IOBUS_OUT" type="array">
+      <obj_property name="ElementShortName">IOBUS_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IOBUS_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/IOBUS_ADDR" type="array">
+      <obj_property name="ElementShortName">IOBUS_ADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IOBUS_ADDR[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/OTTER_MEMORY/MEM_ADDR2" type="array">
+      <obj_property name="ElementShortName">MEM_ADDR2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_ADDR2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/IOBUS_WR" type="logic">
+      <obj_property name="ElementShortName">IOBUS_WR</obj_property>
+      <obj_property name="ObjectShortName">IOBUS_WR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/pc_plus_four" type="array">
+      <obj_property name="ElementShortName">pc_plus_four[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_plus_four[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/srcAmux_out_net" type="array">
+      <obj_property name="ElementShortName">srcAmux_out_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">srcAmux_out_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/srcBmux_out_net" type="array">
+      <obj_property name="ElementShortName">srcBmux_out_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">srcBmux_out_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/mux_net_pc" type="array">
+      <obj_property name="ElementShortName">mux_net_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mux_net_pc[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/rfmux_out_net" type="array">
+      <obj_property name="ElementShortName">rfmux_out_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rfmux_out_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/PCout_net" type="array">
+      <obj_property name="ElementShortName">PCout_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCout_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/ir" type="array">
+      <obj_property name="ElementShortName">ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ir[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/data_out_net" type="array">
+      <obj_property name="ElementShortName">data_out_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/rs1_net" type="array">
+      <obj_property name="ElementShortName">rs1_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/rs2_net" type="array">
+      <obj_property name="ElementShortName">rs2_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs2_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/u_type_net" type="array">
+      <obj_property name="ElementShortName">u_type_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">u_type_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/i_type_net" type="array">
+      <obj_property name="ElementShortName">i_type_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_type_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/s_type_net" type="array">
+      <obj_property name="ElementShortName">s_type_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s_type_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/b_type_net" type="array">
+      <obj_property name="ElementShortName">b_type_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b_type_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/j_type_net" type="array">
+      <obj_property name="ElementShortName">j_type_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j_type_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/bag_jalr_net" type="array">
+      <obj_property name="ElementShortName">bag_jalr_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bag_jalr_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/bag_branch_net" type="array">
+      <obj_property name="ElementShortName">bag_branch_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bag_branch_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/bag_jal_net" type="array">
+      <obj_property name="ElementShortName">bag_jal_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bag_jal_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/alu_fun_net" type="array">
+      <obj_property name="ElementShortName">alu_fun_net[3:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_fun_net[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/alu_srcA_net" type="logic">
+      <obj_property name="ElementShortName">alu_srcA_net</obj_property>
+      <obj_property name="ObjectShortName">alu_srcA_net</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/alu_srcB_net" type="array">
+      <obj_property name="ElementShortName">alu_srcB_net[1:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_srcB_net[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/pcSource_net" type="array">
+      <obj_property name="ElementShortName">pcSource_net[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pcSource_net[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/rf_wr_sel_net" type="array">
+      <obj_property name="ElementShortName">rf_wr_sel_net[1:0]</obj_property>
+      <obj_property name="ObjectShortName">rf_wr_sel_net[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/PCWrite_net" type="logic">
+      <obj_property name="ElementShortName">PCWrite_net</obj_property>
+      <obj_property name="ObjectShortName">PCWrite_net</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/regWrite_net" type="logic">
+      <obj_property name="ElementShortName">regWrite_net</obj_property>
+      <obj_property name="ObjectShortName">regWrite_net</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/memWE2_net" type="logic">
+      <obj_property name="ElementShortName">memWE2_net</obj_property>
+      <obj_property name="ObjectShortName">memWE2_net</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/memRDEN1_net" type="logic">
+      <obj_property name="ElementShortName">memRDEN1_net</obj_property>
+      <obj_property name="ObjectShortName">memRDEN1_net</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/memRDEN2_net" type="logic">
+      <obj_property name="ElementShortName">memRDEN2_net</obj_property>
+      <obj_property name="ObjectShortName">memRDEN2_net</obj_property>
+   </wvobject>
+   <wvobject fp_name="/otter_tb/OTTER_MCU/rst_net" type="logic">
+      <obj_property name="ElementShortName">rst_net</obj_property>
+      <obj_property name="ObjectShortName">rst_net</obj_property>
+   </wvobject>
+</wave_config>

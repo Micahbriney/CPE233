@@ -1,0 +1,93 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Mar 13 21:04:18 2020
+| Host         : DESKTOP-JKIHMQQ running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file OTTER_Wrapper_control_sets_placed.rpt
+| Design       : OTTER_Wrapper
+| Device       : xc7a35t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    15 |
+|    Minimum number of control sets                        |    15 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    21 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    15 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     1 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |    10 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              20 |           11 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              31 |            8 |
+| Yes          | No                    | No                     |              80 |           36 |
+| Yes          | No                    | Yes                    |              32 |           15 |
+| Yes          | Yes                   | No                     |              80 |           33 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------+----------------------------------------------------+----------------------------------------------------+------------------+----------------+
+|              Clock Signal              |                    Enable Signal                   |                  Set/Reset Signal                  | Slice Load Count | Bel Load Count |
++----------------------------------------+----------------------------------------------------+----------------------------------------------------+------------------+----------------+
+|  Otter_MCU/MEMORY_OTTER/PS_reg[0]_1[0] |                                                    |                                                    |                1 |              2 |
+|  clk_IBUF_BUFG                         |                                                    |                                                    |                1 |              2 |
+|  s_clk_BUFG                            | Otter_MCU/MEMORY_OTTER/E[0]                        |                                                    |                1 |              4 |
+|  s_clk_BUFG                            | Otter_MCU/CU_FSM_OTTER/memRDEN1_net                |                                                    |                1 |              4 |
+|  s_clk_BUFG                            | Otter_MCU/MEMORY_OTTER/PS_reg[1][0]                |                                                    |                3 |              8 |
+|  s_clk_BUFG                            |                                                    |                                                    |                9 |             16 |
+|  s_clk_BUFG                            | Otter_MCU/MEMORY_OTTER/r_leds                      | Otter_MCU/MEMORY_OTTER/r_leds[15]_i_5_0            |                6 |             16 |
+|  s_clk_BUFG                            | Otter_MCU/CU_FSM_OTTER/PS_reg[0]_1                 | Otter_MCU/MEMORY_OTTER/ioBuffer[15]_i_1_n_0        |                6 |             16 |
+|  s_clk_BUFG                            | DB/sel                                             | DB/s_reset                                         |                4 |             16 |
+|  clk_IBUF_BUFG                         |                                                    | MY_CLKDIV/sclk                                     |                8 |             31 |
+|  s_clk_BUFG                            | Otter_MCU/MEMORY_OTTER/memory_reg_mux_sel_reg_7_11 | Otter_MCU/MEMORY_OTTER/memory_reg_mux_sel_reg_7_12 |               17 |             32 |
+|  s_clk_BUFG                            | Otter_MCU/MEMORY_OTTER/PS_reg[1]_1[0]              |                                                    |               15 |             32 |
+|  s_clk_BUFG                            | reg_file_reg_r1_0_31_12_17_i_37_n_0                |                                                    |               16 |             32 |
+|  s_clk_BUFG                            | Otter_MCU/CU_FSM_OTTER/E[0]                        | buttons_IBUF[3]                                    |               15 |             32 |
+|  s_clk_BUFG                            | Otter_MCU/MEMORY_OTTER/p_0_in__0                   |                                                    |               12 |             96 |
++----------------------------------------+----------------------------------------------------+----------------------------------------------------+------------------+----------------+
+
+

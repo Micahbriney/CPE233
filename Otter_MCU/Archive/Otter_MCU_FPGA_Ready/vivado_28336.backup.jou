@@ -1,0 +1,64 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Mar 13 14:24:04 2020
+# Process ID: 28336
+# Current directory: C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Otter_MCU_FPGA_Ready
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1576 C:\Users\mjrbr\OneDrive\Cal Poly\Winter 2020\CPE 233\Group Folder\Lab 8\Modules\Otter_MCU_FPGA_Ready\Otter_MCU_FPGA_Ready.xpr
+# Log file: C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Otter_MCU_FPGA_Ready/vivado.log
+# Journal file: C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Otter_MCU_FPGA_Ready\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.xpr}
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property is_enabled true [get_files  {{C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/CLK_DIV_FS.v}}]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.runs/impl_1/OTTER_Wrapper.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+wait_on_run synth_1

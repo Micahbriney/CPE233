@@ -1,0 +1,203 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Oct 14 22:30:08 2024
+# Process ID: 41464
+# Current directory: D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34260 D:\Git\practice\Otter_MCU_FPGA_Firmware_Multiplex\Otter_MCU_FPGA_Firmware_Multiplex.xpr
+# Log file: D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/vivado.log
+# Journal file: D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Shared With Mealy/Otter_MCU_FPGA_Firmware_Multiplex' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:08 . Memory (MB): peak = 865.746 ; gain = 244.988
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'OTTER_Wrapper' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.sim/sim_1/behav/xsim/otter_memory.mem'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj OTTER_Wrapper_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/Branch_Adder_Gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_Adder_Gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/Branch_Cond_Gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Branch_Cond_Gen
+WARNING: [VRFC 10-3380] identifier 'n' is used before its declaration [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/Branch_Cond_Gen.v:37]
+WARNING: [VRFC 10-3380] identifier 'n' is used before its declaration [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/Branch_Cond_Gen.v:38]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/Immed_Gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Immed_Gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/Otter_MCU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Otter_MCU
+INFO: [VRFC 10-2458] undeclared symbol fms_INTR_in, assumed default net type wire [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/Otter_MCU.v:75]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module PC
+WARNING: [VRFC 10-3380] identifier 'n' is used before its declaration [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/PC.v:33]
+WARNING: [VRFC 10-3380] identifier 'n' is used before its declaration [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/PC.v:35]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/n-bit 2 to 1 MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_2t1_nb
+WARNING: [VRFC 10-3380] identifier 'n' is used before its declaration [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/n-bit 2 to 1 MUX.v:35]
+WARNING: [VRFC 10-3380] identifier 'n' is used before its declaration [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/n-bit 2 to 1 MUX.v:36]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/n-bit 8 to 1 MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_8t1_nb
+WARNING: [VRFC 10-3380] identifier 'n' is used before its declaration [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/n-bit 8 to 1 MUX.v:41]
+WARNING: [VRFC 10-3380] identifier 'n' is used before its declaration [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/n-bit 8 to 1 MUX.v:42]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/n_bit_4t1_MUX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module n_bit_4t1_MUX
+WARNING: [VRFC 10-3380] identifier 'n' is used before its declaration [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/n_bit_4t1_MUX.v:44]
+WARNING: [VRFC 10-3380] identifier 'n' is used before its declaration [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/n_bit_4t1_MUX.v:45]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/ALU.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/CSR_v1_01.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/CU_Decoder_full.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_DCDR
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/CU_FSM_full.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CU_FSM
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/new/Debouncer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DBounce
+INFO: [VRFC 10-2458] undeclared symbol s_cnt_en, assumed default net type wire [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/new/Debouncer.sv:65]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/new/Mono-Stable_Multivibrator.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module one_shot_bdir
+INFO: [VRFC 10-2458] undeclared symbol sig_change, assumed default net type wire [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/new/Mono-Stable_Multivibrator.sv:60]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/otter_memory_v1_05.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Memory
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/reg_file_v_1_00.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegFile
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/OTTER_Wrapper_v1_04.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module OTTER_Wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.sim/sim_1/behav/xsim'
+"xelab -wto 48d0db85a3d0409ebe1aee14b3ff966a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot OTTER_Wrapper_behav xil_defaultlib.OTTER_Wrapper xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 48d0db85a3d0409ebe1aee14b3ff966a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot OTTER_Wrapper_behav xil_defaultlib.OTTER_Wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.CSR
+Compiling module xil_defaultlib.mux_8t1_nb(n=32)
+Compiling module xil_defaultlib.PC(n=32)
+Compiling module xil_defaultlib.n_bit_4t1_MUX(n=32)
+Compiling module xil_defaultlib.Memory
+Compiling module xil_defaultlib.RegFile
+Compiling module xil_defaultlib.Immed_Gen
+Compiling module xil_defaultlib.Branch_Adder_Gen
+Compiling module xil_defaultlib.mux_2t1_nb(n=32)
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.Branch_Cond_Gen
+Compiling module xil_defaultlib.CU_DCDR
+Compiling module xil_defaultlib.CU_FSM
+Compiling module xil_defaultlib.Otter_MCU
+Compiling module xil_defaultlib.DBounce(n=16)
+Compiling module xil_defaultlib.one_shot_bdir(n=3)
+Compiling module xil_defaultlib.OTTER_Wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot OTTER_Wrapper_behav
+
+****** Webtalk v2019.2 (64-bit)
+  **** SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+  **** IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+    ** Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+source D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.sim/sim_1/behav/xsim/xsim.dir/OTTER_Wrapper_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Oct 14 22:43:49 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 906.102 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "OTTER_Wrapper_behav -key {Behavioral:sim_1:Functional:OTTER_Wrapper} -tclbatch {OTTER_Wrapper.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2019.2
+Time resolution is 1 ps
+source OTTER_Wrapper.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'OTTER_Wrapper_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 927.512 ; gain = 21.410
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Mon Oct 14 22:46:26 2024] Launched synth_1...
+Run output will be captured here: D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1204.238 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 289 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/constrs_1/new/cnst.xdc]
+Finished Parsing XDC File [D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.srcs/constrs_1/new/cnst.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1315.391 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 12 instances
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1457.305 ; gain = 487.973
+launch_runs impl_1 -jobs 6
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2018.734 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 2040.656 ; gain = 8.977
+[Mon Oct 14 22:48:26 2024] Launched impl_1...
+Run output will be captured here: D:/Git/practice/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.runs/impl_1/runme.log
+close_design
+open_run impl_1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 2040.656 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 289 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2019.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.250 . Memory (MB): peak = 2066.855 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.250 . Memory (MB): peak = 2066.855 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2066.855 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 12 instances were transformed.
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 12 instances
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 14 22:57:17 2024...

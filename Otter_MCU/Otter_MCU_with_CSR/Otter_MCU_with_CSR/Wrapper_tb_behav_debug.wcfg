@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Wrapper_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Wrapper_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2253333fs"></ZoomStartTime>
+      <ZoomEndTime time="2427734fs"></ZoomEndTime>
+      <Cursor1Time time="2305000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="199"></NameColumnWidth>
+      <ValueColumnWidth column_width="75"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/sclk" type="logic">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/BTNC" type="logic">
+      <obj_property name="ElementShortName">BTNC</obj_property>
+      <obj_property name="ObjectShortName">BTNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/SWITCHES" type="array">
+      <obj_property name="ElementShortName">SWITCHES[15:0]</obj_property>
+      <obj_property name="ObjectShortName">SWITCHES[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/LEDS" type="array">
+      <obj_property name="ElementShortName">LEDS[15:0]</obj_property>
+      <obj_property name="ObjectShortName">LEDS[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/CATHODES" type="array">
+      <obj_property name="ElementShortName">CATHODES[7:0]</obj_property>
+      <obj_property name="ObjectShortName">CATHODES[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/ANODES" type="array">
+      <obj_property name="ElementShortName">ANODES[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ANODES[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CU_FSM_OTTER/OPCODE" type="array">
+      <obj_property name="ElementShortName">OPCODE[6:0]</obj_property>
+      <obj_property name="ObjectShortName">OPCODE[6:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CU_FSM_OTTER/PS" type="array">
+      <obj_property name="ElementShortName">PS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CU_FSM_OTTER/temp_NS" type="array">
+      <obj_property name="ElementShortName">temp_NS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">temp_NS[1:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/BTNL" type="logic">
+      <obj_property name="ElementShortName">BTNL</obj_property>
+      <obj_property name="ObjectShortName">BTNL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/fms_INTR_in" type="logic">
+      <obj_property name="ElementShortName">fms_INTR_in</obj_property>
+      <obj_property name="ObjectShortName">fms_INTR_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/s_interrupt" type="logic">
+      <obj_property name="ElementShortName">s_interrupt</obj_property>
+      <obj_property name="ObjectShortName">s_interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CU_FSM_OTTER/FUNC3" type="array">
+      <obj_property name="ElementShortName">FUNC3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FUNC3[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CU_FSM_OTTER/csr_WE" type="logic">
+      <obj_property name="ElementShortName">csr_WE</obj_property>
+      <obj_property name="ObjectShortName">csr_WE</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CU_FSM_OTTER/int_taken" type="logic">
+      <obj_property name="ElementShortName">int_taken</obj_property>
+      <obj_property name="ObjectShortName">int_taken</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CU_DCDR_OTTER/FUNC3" type="array">
+      <obj_property name="ElementShortName">FUNC3[2:0]</obj_property>
+      <obj_property name="ObjectShortName">FUNC3[2:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CU_DCDR_OTTER/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[6:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[6:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CU_DCDR_OTTER/OPCODE" type="array">
+      <obj_property name="ElementShortName">OPCODE[6:0]</obj_property>
+      <obj_property name="ObjectShortName">OPCODE[6:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/PCout_net" type="array">
+      <obj_property name="ElementShortName">PCout_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCout_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/pcSource_net" type="array">
+      <obj_property name="ElementShortName">pcSource_net[2:0]</obj_property>
+      <obj_property name="ObjectShortName">pcSource_net[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CSR_OTTER/CSR_MIE" type="logic">
+      <obj_property name="ElementShortName">CSR_MIE</obj_property>
+      <obj_property name="ObjectShortName">CSR_MIE</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CSR_OTTER/CSR_MEPC" type="array">
+      <obj_property name="ElementShortName">CSR_MEPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSR_MEPC[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CSR_OTTER/CSR_MTVEC" type="array">
+      <obj_property name="ElementShortName">CSR_MTVEC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CSR_MTVEC[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CSR_OTTER/RD" type="array">
+      <obj_property name="ElementShortName">RD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CSR_OTTER/WR_EN" type="logic">
+      <obj_property name="ElementShortName">WR_EN</obj_property>
+      <obj_property name="ObjectShortName">WR_EN</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CSR_OTTER/INT_TAKEN" type="logic">
+      <obj_property name="ElementShortName">INT_TAKEN</obj_property>
+      <obj_property name="ObjectShortName">INT_TAKEN</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CSR_OTTER/ADDR" type="array">
+      <obj_property name="ElementShortName">ADDR[31:20]</obj_property>
+      <obj_property name="ObjectShortName">ADDR[31:20]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/PC_MUX_OTTER/SEL" type="array">
+      <obj_property name="ElementShortName">SEL[2:0]</obj_property>
+      <obj_property name="ObjectShortName">SEL[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CSR_OTTER/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CSR_OTTER/WD" type="array">
+      <obj_property name="ElementShortName">WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/MCU_PC_OTTER/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/DB/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/DB/BTN" type="logic">
+      <obj_property name="ElementShortName">BTN</obj_property>
+      <obj_property name="ObjectShortName">BTN</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/DB/DB_BTN" type="logic">
+      <obj_property name="ElementShortName">DB_BTN</obj_property>
+      <obj_property name="ObjectShortName">DB_BTN</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/DB/c_LOW_GOING_HIGH_CLOCKS" type="array">
+      <obj_property name="ElementShortName">c_LOW_GOING_HIGH_CLOCKS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">c_LOW_GOING_HIGH_CLOCKS[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/DB/c_HIGH_GOING_LOW_CLOCKS" type="array">
+      <obj_property name="ElementShortName">c_HIGH_GOING_LOW_CLOCKS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">c_HIGH_GOING_LOW_CLOCKS[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/DB/c_ONE_SHOT_CLOCKS" type="array">
+      <obj_property name="ElementShortName">c_ONE_SHOT_CLOCKS[7:0]</obj_property>
+      <obj_property name="ObjectShortName">c_ONE_SHOT_CLOCKS[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/DB/NS" type="array">
+      <obj_property name="ElementShortName">NS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NS[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/DB/PS" type="array">
+      <obj_property name="ElementShortName">PS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/DB/s_db_count" type="array">
+      <obj_property name="ElementShortName">s_db_count[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_db_count[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/DB/s_count_rst" type="logic">
+      <obj_property name="ElementShortName">s_count_rst</obj_property>
+      <obj_property name="ObjectShortName">s_count_rst</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/DB/s_count_inc" type="logic">
+      <obj_property name="ElementShortName">s_count_inc</obj_property>
+      <obj_property name="ObjectShortName">s_count_inc</obj_property>
+      <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>

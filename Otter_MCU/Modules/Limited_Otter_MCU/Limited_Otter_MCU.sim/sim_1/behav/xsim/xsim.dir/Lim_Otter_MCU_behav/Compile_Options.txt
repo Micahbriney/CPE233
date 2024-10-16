@@ -1,0 +1,1 @@
+-wto "52d502c6b5b54374a8107ae27423ed94" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Lim_Otter_MCU_behav" "xil_defaultlib.Lim_Otter_MCU" "xil_defaultlib.glbl" -log "elaborate.log" 

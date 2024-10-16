@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1584256357">
+  <File Type="PA-TCL" Name="OTTER_Wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="OTTER_Wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="OTTER_Wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="OTTER_Wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="OTTER_Wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="OTTER_Wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="OTTER_Wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="OTTER_Wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="OTTER_Wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/Branch_Adder_Gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/Branch_Adder_Gen.v"/>
+        <Attr Name="ImportTime" Val="1583203505"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/Branch_Cond_Gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/Branch_Cond_Gen.v"/>
+        <Attr Name="ImportTime" Val="1583203605"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/Immed_Gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/Immed_Gen.v"/>
+        <Attr Name="ImportTime" Val="1583203554"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/Otter_MCU.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/Otter_MCU.v"/>
+        <Attr Name="ImportTime" Val="1583890977"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/PC.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/PC.v"/>
+        <Attr Name="ImportTime" Val="1580979068"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/n-bit 2 to 1 MUX.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/n-bit 2 to 1 MUX.v"/>
+        <Attr Name="ImportTime" Val="1578460143"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/n-bit 8 to 1 MUX.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/n-bit 8 to 1 MUX.v"/>
+        <Attr Name="ImportTime" Val="1578460998"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/n_bit_4t1_MUX.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/n_bit_4t1_MUX.v"/>
+        <Attr Name="ImportTime" Val="1583648194"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/ALU.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/ALU.sv"/>
+        <Attr Name="ImportTime" Val="1583211602"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/CSR_v1_01.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/CSR_v1_01.sv"/>
+        <Attr Name="ImportTime" Val="1583983142"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/CU_Decoder_full.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/CU_Decoder_full.sv"/>
+        <Attr Name="ImportTime" Val="1583903460"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/CU_FSM_full.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/CU_FSM_full.sv"/>
+        <Attr Name="ImportTime" Val="1583903941"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/Debouncer.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/new/Debouncer.sv"/>
+        <Attr Name="ImportTime" Val="1583983583"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/new/Mono-Stable_Multivibrator.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/new/Mono-Stable_Multivibrator.sv"/>
+        <Attr Name="ImportTime" Val="1583985042"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/otter_memory_v1_05.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/otter_memory_v1_05.sv"/>
+        <Attr Name="ImportTime" Val="1581826003"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/reg_file_v_1_00.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/reg_file_v_1_00.sv"/>
+        <Attr Name="ImportTime" Val="1582083876"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sources_1/imports/new/OTTER_Wrapper_v1_04.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Backup/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/OTTER_Wrapper_v1_04.sv"/>
+        <Attr Name="ImportTime" Val="1584065843"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Master Modules/Adjustable Clock Divider.sv">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Master Modules/Adjustable Clock Divider.sv"/>
+        <Attr Name="ImportTime" Val="1584250163"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/otter_memory.mem">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Lab 8/Modules/Micah New Branch/Otter_MCU_FPGA_Ready/Otter_MCU_FPGA_Ready.srcs/sources_1/imports/new/otter_memory.mem"/>
+        <Attr Name="ImportTime" Val="1584158264"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="OTTER_Wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/cnst.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

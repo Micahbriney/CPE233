@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Wrapper_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Wrapper_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="107795820833fs"></ZoomStartTime>
+      <ZoomEndTime time="107796256834fs"></ZoomEndTime>
+      <Cursor1Time time="107796345000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="199"></NameColumnWidth>
+      <ValueColumnWidth column_width="75"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/sclk" type="logic">
+      <obj_property name="ElementShortName">sclk</obj_property>
+      <obj_property name="ObjectShortName">sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/BTNL" type="logic">
+      <obj_property name="ElementShortName">BTNL</obj_property>
+      <obj_property name="ObjectShortName">BTNL</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/BTNC" type="logic">
+      <obj_property name="ElementShortName">BTNC</obj_property>
+      <obj_property name="ObjectShortName">BTNC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/PCout_net" type="array">
+      <obj_property name="ElementShortName">PCout_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PCout_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/rs1_net" type="array">
+      <obj_property name="ElementShortName">rs1_net[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rs1_net[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/ir" type="array">
+      <obj_property name="ElementShortName">ir[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ir[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CU_FSM_OTTER/OPCODE" type="array">
+      <obj_property name="ElementShortName">OPCODE[6:0]</obj_property>
+      <obj_property name="ObjectShortName">OPCODE[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CU_FSM_OTTER/PS" type="array">
+      <obj_property name="ElementShortName">PS[1:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CU_FSM_OTTER/intr" type="logic">
+      <obj_property name="ElementShortName">intr</obj_property>
+      <obj_property name="ObjectShortName">intr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/mie_out" type="logic">
+      <obj_property name="ElementShortName">mie_out</obj_property>
+      <obj_property name="ObjectShortName">mie_out</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/fms_INTR_in" type="logic">
+      <obj_property name="ElementShortName">fms_INTR_in</obj_property>
+      <obj_property name="ObjectShortName">fms_INTR_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CSR_OTTER/WD" type="array">
+      <obj_property name="ElementShortName">WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CU_FSM_OTTER/csr_WE" type="logic">
+      <obj_property name="ElementShortName">csr_WE</obj_property>
+      <obj_property name="ObjectShortName">csr_WE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/int_taken_net" type="logic">
+      <obj_property name="ElementShortName">int_taken_net</obj_property>
+      <obj_property name="ObjectShortName">int_taken_net</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Wrapper_tb/tb_wrap/Otter_MCU/CSR_OTTER/CSR_T" type="array">
+      <obj_property name="ElementShortName">CSR_T[11:0]</obj_property>
+      <obj_property name="ObjectShortName">CSR_T[11:0]</obj_property>
+   </wvobject>
+</wave_config>

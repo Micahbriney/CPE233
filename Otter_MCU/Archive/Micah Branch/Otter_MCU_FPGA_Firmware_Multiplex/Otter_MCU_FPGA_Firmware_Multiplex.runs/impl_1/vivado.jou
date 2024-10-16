@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Mar 13 16:55:26 2020
+# Process ID: 35264
+# Current directory: C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Micah Branch/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.runs/impl_1
+# Command line: vivado.exe -log OTTER_Wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source OTTER_Wrapper.tcl -notrace
+# Log file: C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Micah Branch/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.runs/impl_1/OTTER_Wrapper.vdi
+# Journal file: C:/Users/mjrbr/OneDrive/Cal Poly/Winter 2020/CPE 233/Group Folder/Lab 8/Modules/Micah Branch/Otter_MCU_FPGA_Firmware_Multiplex/Otter_MCU_FPGA_Firmware_Multiplex.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source OTTER_Wrapper.tcl -notrace

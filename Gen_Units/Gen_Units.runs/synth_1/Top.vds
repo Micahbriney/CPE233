@@ -1,0 +1,439 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Thu Feb  6 02:04:04 2020
+# Process ID: 22072
+# Current directory: C:/Users/mjrbr/Gen_Units/Gen_Units.runs/synth_1
+# Command line: vivado.exe -log Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+# Log file: C:/Users/mjrbr/Gen_Units/Gen_Units.runs/synth_1/Top.vds
+# Journal file: C:/Users/mjrbr/Gen_Units/Gen_Units.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Top.tcl -notrace
+Command: synth_design -top Top -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 34536 
+WARNING: [Synth 8-6901] identifier 'n' is used before its declaration [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/PC.v:33]
+WARNING: [Synth 8-6901] identifier 'n' is used before its declaration [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/PC.v:35]
+WARNING: [Synth 8-6901] identifier 'n' is used before its declaration [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/n_bit_4t1_MUX.v:41]
+WARNING: [Synth 8-6901] identifier 'n' is used before its declaration [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/n_bit_4t1_MUX.v:42]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 577.160 ; gain = 246.273
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Top' [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/Top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'PC' [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/PC.v:32]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'PC' (1#1) [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/PC.v:32]
+INFO: [Synth 8-6157] synthesizing module 'PC_mux' [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/n_bit_4t1_MUX.v:39]
+	Parameter n bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/n_bit_4t1_MUX.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'PC_mux' (2#1) [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/n_bit_4t1_MUX.v:39]
+WARNING: [Synth 8-689] width (32) of port connection 'D0' does not match port width (4) of module 'PC_mux' [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/Top.v:53]
+WARNING: [Synth 8-689] width (32) of port connection 'D1' does not match port width (4) of module 'PC_mux' [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/Top.v:54]
+WARNING: [Synth 8-689] width (32) of port connection 'D2' does not match port width (4) of module 'PC_mux' [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/Top.v:55]
+WARNING: [Synth 8-689] width (32) of port connection 'D3' does not match port width (4) of module 'PC_mux' [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/Top.v:56]
+WARNING: [Synth 8-689] width (32) of port connection 'D_OUT' does not match port width (4) of module 'PC_mux' [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/Top.v:57]
+INFO: [Synth 8-6157] synthesizing module 'Memory' [C:/Users/mjrbr/Program_Counter/Program_Counter.srcs/sources_1/new/Otter_Memory.sv:39]
+INFO: [Synth 8-5534] Detected attribute (* rom_style = "{distributed | block}" *) [C:/Users/mjrbr/Program_Counter/Program_Counter.srcs/sources_1/new/Otter_Memory.sv:61]
+INFO: [Synth 8-3876] $readmem data file 'otter_memory.mem' is read successfully [C:/Users/mjrbr/Program_Counter/Program_Counter.srcs/sources_1/new/Otter_Memory.sv:64]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/mjrbr/Program_Counter/Program_Counter.srcs/sources_1/new/Otter_Memory.sv:86]
+INFO: [Synth 8-5772] Detected attribute (* ram_decomp = "power" *) on RAM memory_reg 
+INFO: [Synth 8-6155] done synthesizing module 'Memory' (3#1) [C:/Users/mjrbr/Program_Counter/Program_Counter.srcs/sources_1/new/Otter_Memory.sv:39]
+INFO: [Synth 8-6157] synthesizing module 'Branch_Adder_Gen' [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/Branch_Adder_Gen.v:33]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Branch_Adder_Gen' (4#1) [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/Branch_Adder_Gen.v:33]
+INFO: [Synth 8-6157] synthesizing module 'Immed_Gen' [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/Immed_Gen.v:31]
+	Parameter n bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'Immed_Gen' (5#1) [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/Immed_Gen.v:31]
+INFO: [Synth 8-5772] Detected attribute (* ram_decomp = "power" *) on RAM memory_reg 
+INFO: [Synth 8-6155] done synthesizing module 'Top' (6#1) [C:/Users/mjrbr/Gen_Units/Gen_Units.srcs/sources_1/new/Top.v:23]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[31]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[30]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[29]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[28]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[27]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[26]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[25]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[24]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[23]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[22]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[21]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[20]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[19]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[18]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[17]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[16]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[15]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[14]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[13]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[12]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[11]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[10]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[9]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[8]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[7]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[6]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[5]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[4]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[3]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[2]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[1]
+WARNING: [Synth 8-3331] design Branch_Adder_Gen has unconnected port rs1[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 638.684 ; gain = 307.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 638.684 ; gain = 307.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 638.684 ; gain = 307.797
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Memory:/memory_reg"
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 638.684 ; gain = 307.797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 6     
++---Registers : 
+	               32 Bit    Registers := 4     
++---RAMs : 
+	             512K Bit         RAMs := 1     
++---Muxes : 
+	   9 Input     32 Bit        Muxes := 2     
+	  16 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input      4 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Top 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+Module PC 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module PC_mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+Module Memory 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
++---RAMs : 
+	             512K Bit         RAMs := 1     
++---Muxes : 
+	   9 Input     32 Bit        Muxes := 2     
+	  16 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 1     
+Module Branch_Adder_Gen 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
+Module Immed_Gen 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3917] design Top has port u_type_imm[11] driven by constant 0
+WARNING: [Synth 8-3917] design Top has port u_type_imm[10] driven by constant 0
+WARNING: [Synth 8-3917] design Top has port u_type_imm[9] driven by constant 0
+WARNING: [Synth 8-3917] design Top has port u_type_imm[8] driven by constant 0
+WARNING: [Synth 8-3917] design Top has port u_type_imm[7] driven by constant 0
+WARNING: [Synth 8-3917] design Top has port u_type_imm[6] driven by constant 0
+WARNING: [Synth 8-3917] design Top has port u_type_imm[5] driven by constant 0
+WARNING: [Synth 8-3917] design Top has port u_type_imm[4] driven by constant 0
+WARNING: [Synth 8-3917] design Top has port u_type_imm[3] driven by constant 0
+WARNING: [Synth 8-3917] design Top has port u_type_imm[2] driven by constant 0
+WARNING: [Synth 8-3917] design Top has port u_type_imm[1] driven by constant 0
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-7030] Implemented Non-Cascaded Block Ram (cascade_height = 1) of width 32 for RAM "Top/OTTER_MEMORY/memory_reg"
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[31]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[30]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[29]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[28]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[27]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[26]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[25]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[24]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[23]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[22]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[21]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[20]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[19]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[18]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[17]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[16]' (FDCE) to 'MY_PC/data_out_reg[4]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[4]' (FDCE) to 'MY_PC/data_out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[5]' (FDCE) to 'MY_PC/data_out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[6]' (FDCE) to 'MY_PC/data_out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[7]' (FDCE) to 'MY_PC/data_out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[8]' (FDCE) to 'MY_PC/data_out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[9]' (FDCE) to 'MY_PC/data_out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[10]' (FDCE) to 'MY_PC/data_out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[11]' (FDCE) to 'MY_PC/data_out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[12]' (FDCE) to 'MY_PC/data_out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[13]' (FDCE) to 'MY_PC/data_out_reg[15]'
+INFO: [Synth 8-3886] merging instance 'MY_PC/data_out_reg[14]' (FDCE) to 'MY_PC/data_out_reg[15]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\MY_PC/data_out_reg[15] )
+INFO: [Synth 8-3886] merging instance 'i_0/OTTER_MEMORY/memory_reg_mux_sel_reg_0' (FD) to 'i_0/OTTER_MEMORY/memory_reg_mux_sel_reg_3'
+INFO: [Synth 8-3886] merging instance 'i_0/OTTER_MEMORY/memory_reg_mux_sel_reg_1' (FD) to 'i_0/OTTER_MEMORY/memory_reg_mux_sel_reg_3'
+INFO: [Synth 8-3886] merging instance 'i_0/OTTER_MEMORY/memory_reg_mux_sel_reg_2' (FD) to 'i_0/OTTER_MEMORY/memory_reg_mux_sel_reg_3'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_0/\OTTER_MEMORY/memory_reg_mux_sel_reg_3 )
+WARNING: [Synth 8-3332] Sequential element (OTTER_MEMORY/memory_reg_mux_sel_reg_3) is unused and will be removed from module Top.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 794.859 ; gain = 463.973
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Preliminary Mapping	Report (see note below)
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object              | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Top         | OTTER_MEMORY/memory_reg | 16 K x 32(READ_FIRST)  | W |   | 16 K x 32(WRITE_FIRST) |   | R | Port A and B     | 0      | 16     | 
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 798.441 ; gain = 467.555
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name | RTL Object              | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Top         | OTTER_MEMORY/memory_reg | 16 K x 32(READ_FIRST)  | W |   | 16 K x 32(WRITE_FIRST) |   | R | Port A and B     | 0      | 16     | 
++------------+-------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-7053] The timing for the instance OTTER_MEMORY/memory_reg_bram_4 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 798.441 ; gain = 467.555
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 799.438 ; gain = 468.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 799.438 ; gain = 468.551
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 799.438 ; gain = 468.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 799.438 ; gain = 468.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 799.438 ; gain = 468.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 799.438 ; gain = 468.551
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |LUT2     |     3|
+|3     |LUT4     |     7|
+|4     |LUT5     |    25|
+|5     |LUT6     |     7|
+|6     |RAMB36E1 |     1|
+|7     |FDCE     |     4|
+|8     |IBUF     |     5|
+|9     |OBUF     |    64|
++------+---------+------+
+
+Report Instance Areas: 
++------+---------------+-------+------+
+|      |Instance       |Module |Cells |
++------+---------------+-------+------+
+|1     |top            |       |   117|
+|2     |  MY_PC        |PC     |     9|
+|3     |  OTTER_MEMORY |Memory |    38|
++------+---------------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 799.438 ; gain = 468.551
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 53 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 799.438 ; gain = 468.551
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 799.438 ; gain = 468.551
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 811.578 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 907.664 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+92 Infos, 53 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 907.664 ; gain = 601.613
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 907.664 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/mjrbr/Gen_Units/Gen_Units.runs/synth_1/Top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Top_utilization_synth.rpt -pb Top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Feb  6 02:04:25 2020...

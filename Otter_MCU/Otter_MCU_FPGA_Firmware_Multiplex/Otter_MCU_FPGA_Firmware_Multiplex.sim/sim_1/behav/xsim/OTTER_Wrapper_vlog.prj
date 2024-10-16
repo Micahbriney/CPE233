@@ -1,0 +1,27 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/Branch_Adder_Gen.v" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/Branch_Cond_Gen.v" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/Immed_Gen.v" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/Otter_MCU.v" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/PC.v" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/n-bit 2 to 1 MUX.v" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/n-bit 8 to 1 MUX.v" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/n_bit_4t1_MUX.v" \
+
+sv xil_defaultlib  \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/ALU.sv" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/CSR_v1_01.sv" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/CU_Decoder_full.sv" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/CU_FSM_full.sv" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/new/Debouncer.sv" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/new/Mono-Stable_Multivibrator.sv" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/otter_memory_v1_05.sv" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/reg_file_v_1_00.sv" \
+"../../../../Otter_MCU_FPGA_Firmware_Multiplex.srcs/sources_1/imports/sources_1/imports/new/OTTER_Wrapper_v1_04.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
