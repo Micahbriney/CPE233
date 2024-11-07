@@ -1,0 +1,5 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado Projects/Lab_06/Lab_06.srcs/sources_1/new/BC_DEC0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity BC_DEC0
+INFO: [VRFC 10-307] analyzing entity clk_div
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Vivado Projects/Lab_06/Lab_06.srcs/sources_1/new/CLK_DIV.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity clk_div2

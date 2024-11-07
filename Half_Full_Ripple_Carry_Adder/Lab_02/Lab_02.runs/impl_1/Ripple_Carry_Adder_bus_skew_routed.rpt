@@ -1,0 +1,15 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Oct  9 20:25:52 2019
+| Host         : LAPTOP-BGOOQP4S running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file Ripple_Carry_Adder_bus_skew_routed.rpt -pb Ripple_Carry_Adder_bus_skew_routed.pb -rpx Ripple_Carry_Adder_bus_skew_routed.rpx
+| Design       : Ripple_Carry_Adder
+| Device       : 7a35t-cpg236
+| Speed File   : -1  PRODUCTION 1.22 2018-03-21
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

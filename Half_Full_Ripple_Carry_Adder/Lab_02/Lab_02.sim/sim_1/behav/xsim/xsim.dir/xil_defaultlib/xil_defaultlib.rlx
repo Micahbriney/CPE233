@@ -1,0 +1,11 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+D:/Vivado Projects/Lab_02/Lab_02.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+D:/Vivado Projects/Lab_02/Lab_02.srcs/sim_1/new/Lab_02_Full_Adder_Sim.sv,1570606976,systemVerilog,,,,Lab_02_Full_Adder_Sim,,,,,,,,
+D:/Vivado Projects/Lab_02/Lab_02.srcs/sim_1/new/Lab_02_Half_Adder_Sim.sv,1570674918,systemVerilog,,,,Lab_02_Half_Adder_Sim,,,,,,,,
+D:/Vivado Projects/Lab_02/Lab_02.srcs/sim_1/new/Lab_02_Ripple_Carry_Adder_Sim.sv,1570675209,systemVerilog,,,,Lab_02_Ripple_Carry_Adder_Sim,,,,,,,,
+D:/Vivado Projects/Lab_02/Lab_02.srcs/sources_1/new/Lab_02_Full_Adder.sv,1570503306,systemVerilog,,D:/Vivado Projects/Lab_02/Lab_02.srcs/sources_1/new/Lab_02_Half_Adder.sv,,Lab_02_Full_Adder,,,,,,,,
+D:/Vivado Projects/Lab_02/Lab_02.srcs/sources_1/new/Lab_02_Half_Adder.sv,1570502866,systemVerilog,,D:/Vivado Projects/Lab_02/Lab_02.srcs/sim_1/new/Lab_02_Half_Adder_Sim.sv,,Lab_02_Half_Adder,,,,,,,,
+D:/Vivado Projects/Lab_02/Lab_02.srcs/sources_1/new/Ripple_Carry_Adder.sv,1570675735,systemVerilog,,D:/Vivado Projects/Lab_02/Lab_02.srcs/sim_1/new/Lab_02_Ripple_Carry_Adder_Sim.sv,,Ripple_Carry_Adder,,,,,,,,
