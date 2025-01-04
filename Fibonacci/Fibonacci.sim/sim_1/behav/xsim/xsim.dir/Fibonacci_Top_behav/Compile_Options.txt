@@ -1,0 +1,1 @@
+-wto "2bef9819a64d408c8395ddf5caf67173" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "Fibonacci_Top_behav" "xil_defaultlib.Fibonacci_Top" "xil_defaultlib.glbl" -log "elaborate.log" 

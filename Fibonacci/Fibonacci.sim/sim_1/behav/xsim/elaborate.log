@@ -1,0 +1,15 @@
+Vivado Simulator 2019.2
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto 2bef9819a64d408c8395ddf5caf67173 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Top_Sim_behav xil_defaultlib.Top_Sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'fclk_only' [C:/Users/mjrbr/Fibonacci/Fibonacci.srcs/sources_1/new/Fibonacci_Top.v:38]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 1 for port 'clr_fsm' [C:/Users/mjrbr/Fibonacci/Fibonacci.srcs/sources_1/new/Fibonacci_Top.v:44]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'D1' [C:/Users/mjrbr/Fibonacci/Fibonacci.srcs/sources_1/new/Fibonacci_Top.v:55]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'D1' [C:/Users/mjrbr/Fibonacci/Fibonacci.srcs/sources_1/new/Fibonacci_Top.v:61]
+WARNING: [VRFC 10-3091] actual bit length 32 differs from formal bit length 10 for port 'D1' [C:/Users/mjrbr/Fibonacci/Fibonacci.srcs/sources_1/new/Fibonacci_Top.v:67]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'D' [C:/Users/mjrbr/Fibonacci/Fibonacci.srcs/sources_1/new/Fibonacci_Top.v:96]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 7 for port 'cnt2' [C:/Users/mjrbr/Fibonacci/Fibonacci.srcs/sources_1/new/Fibonacci_Top.v:108]
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel

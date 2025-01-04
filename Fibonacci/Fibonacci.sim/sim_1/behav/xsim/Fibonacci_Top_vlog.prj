@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Fibonacci.srcs/sources_1/new/Clk_Div.v" \
+"../../../../Fibonacci.srcs/sources_1/new/Counter.v" \
+"../../../../Fibonacci.srcs/sources_1/new/FSM.v" \
+"../../../../Fibonacci.srcs/sources_1/new/Mux2To1.v" \
+"../../../../Fibonacci.srcs/sources_1/new/RAM.v" \
+"../../../../Fibonacci.srcs/sources_1/new/RCA.v" \
+"../../../../Fibonacci.srcs/sources_1/new/Register.v" \
+"../../../../Fibonacci.srcs/sources_1/new/USevSeg.v" \
+"../../../../Fibonacci.srcs/sources_1/new/Fibonacci_Top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
